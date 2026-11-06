@@ -2,11 +2,7 @@
 
 A YOLO11-based segmentation project for detecting and segmenting cell nuclei and gene signals (HER2, Chr17, and fusion) in Dual In Situ Hybridization (DISH) microscopy images.
 
-## Features
-
-- **Nucleus Segmentation**: Identifies and segments cell nuclei.
-- **Signal Detection**: Detects and classifies HER2 (black), Chr17 (pink), fusion, and cluster signals.
-- **Analysis & Visualization**: Counts signals per image and visualizes prediction overlays.
+The single unified model, both segnments the nuclei and idenifies the gene signals in DISH images. 
 
 ---
 
@@ -24,9 +20,7 @@ Ensure `yolo11s-seg.pt` (base model) or `best.pt` (trained weights) is in the ro
 
 ## Dataset Structure
 
-> **Note**: This repository **does not include images or labels**. Only the required directory layout and configuration files are provided.
-
-Place your dataset into the following directory structure before training or testing:
+> **Note**: This repository **does not include images or labels**. Only the required directory layout and configuration files are provided. The `train.txt` and `val.txt` files should be update with the list of respective images, and labels should be placed in the corresponding folder.
 
 ```text
 data/
