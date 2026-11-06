@@ -1,0 +1,5 @@
+*.png
+*.txt
+*.cache
+yolo11s-seg.pt
+.idea/

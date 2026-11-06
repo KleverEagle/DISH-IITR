@@ -1,0 +1,12 @@
+names:
+ 0: HER2_cluster3
+ 1: HER2_cluster6
+ 2: HER2_cluster12
+ 3: fusion(Her2+Chr17)
+ 4: pink(Chr17)
+ 5: black(Her2)
+ 6: Nucleus
+ 7: exclude
+path: .
+train: train.txt
+val: val.txt
