@@ -47,7 +47,7 @@ data/
 │       └── draw_new.py   # Draw predicted masks and signal markers on images
 ├── data/                 # Dataset folder (see Dataset Structure above)
 ├── google-colab
-|   ├── DISH_IITR.ipynb   # Google-Colab Notebook file
+|   └── DISH_IITR.ipynb   # Google-Colab Notebook file
 ├── requirements.txt      # Project dependencies
 └── README.md
 ```
