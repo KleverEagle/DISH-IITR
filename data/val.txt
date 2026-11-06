@@ -1,0 +1,6 @@
+test/images/503763SL4_y1200_x0.png
+test/images/503763SL4_y1200_x1024.png
+test/images/503763SL4_y1200_x1280.png
+test/images/503763SL4_y1200_x1536.png
+test/images/503763SL4_y1200_x1792.png
+test/images/503763SL4_y1200_x2048.png

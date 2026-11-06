@@ -1,5 +1,11 @@
 *.png
-*.txt
 *.cache
 yolo11s-seg.pt
 .idea/
+.venv/
+
+# Ignore label txt files but keep requirements.txt
+*.txt
+!requirements.txt
+!data/train.txt
+!data/val.txt
