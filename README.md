@@ -14,8 +14,6 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-Ensure `yolo11s-seg.pt` (base model) or `best.pt` (trained weights) is in the root directory.
-
 ---
 
 ## Dataset Structure
